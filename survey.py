@@ -103,7 +103,7 @@ class Respondents(Table):
         self.Recode()
 
     def GetFilename(self):
-        return '2002FemResp.dat'
+        return 'data/2002FemResp.dat'
 
     def GetFields(self):
         """Returns a tuple specifying the fields to extract.
@@ -127,7 +127,7 @@ class Pregnancies(Table):
         self.Recode()
 
     def GetFilename(self):
-        return '2002FemPreg.dat'
+        return 'data/2002FemPreg.dat'
 
     def GetFields(self):
         """Gets information about the fields to extract from the survey data.
